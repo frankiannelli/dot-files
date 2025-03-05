@@ -10,6 +10,9 @@ eval "$(starship init zsh)"
 
 eval "$(zellij setup --generate-auto-start zsh)"
 
+# auto complete for git
+autoload -Uz compinit && compinit
+
 alias gaa='git add .'
 alias ga='git add'
 alias gaaa='git add --all'
