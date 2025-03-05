@@ -10,5 +10,6 @@ CONFIGS_DIR="$DOTFILES_DIR/configs"
 ln -sfn "$CONFIGS_DIR/zshrc" "$HOME/.zshrc"
 ln -sfn "$CONFIGS_DIR/zellij" "$HOME/.config/zellij"
 ln -sfn "$CONFIGS_DIR/nvim" "$HOME/.config/nvim"
+ln -sfn "$CONFIGS_DIR/alacritty" "$HOME/.config/alacritty"
 
 echo "✅ Config files linked!"
