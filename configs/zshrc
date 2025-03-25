@@ -10,6 +10,9 @@ eval "$(starship init zsh)"
 
 eval "$(zellij setup --generate-auto-start zsh)"
 
+export EDITOR="nvim"
+export VISUAL="nvim"
+
 # auto complete for git
 autoload -Uz compinit && compinit
 
@@ -50,6 +53,8 @@ alias gstl='git stash list'
 alias gstp='git stash pop'
 alias gsts='git stash save'
 alias co='code .'
+
+alias lzg='lazygit'
 
 alias vim='nvim'
 alias vimf='vim $(fd . ~/development | fzf)'
