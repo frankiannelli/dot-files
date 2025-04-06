@@ -1,5 +1,7 @@
 #!/bin/bash
 
+brew update && brew upgrade && brew cleanup
+
 # Get script directory (dotfiles repo location)
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 INSTALL_SCRIPTS="$SCRIPT_DIR/install-scripts"
